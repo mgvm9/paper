@@ -22,7 +22,7 @@ from array import *
 
 
 
-class K_IncDBSCANISBGD_reduced(BISGD):
+class EDBSCAN_ICR(BISGD):
     def __init__(self, data: ImplicitData, eps: float = 0.25, MinPts: int = 3, k: int = 10,
         num_clusters: int = 10, cl_num_iterations: int = 10, cl_learn_rate: float = 0.01, cl_regularization: float = 0.1,         
         num_factors: int = 10, num_iterations: int = 10, learn_rate: float = 0.01, regularization: float = 0.1, 
