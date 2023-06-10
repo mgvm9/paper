@@ -37,7 +37,7 @@ def TransformVec(V):
     return new
 
 
-class ENMF_ICR(BISGD):
+class ICE_NMF(BISGD):
     def __init__(self, data: ImplicitData, 
         num_clusters: int = 10, cl_num_iterations: int = 10, cl_learn_rate: float = 0.01, cl_regularization: float = 0.1,         
         num_factors: int = 10, num_iterations: int = 10, learn_rate: float = 0.01, regularization: float = 0.1, 
